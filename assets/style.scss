@@ -45,7 +45,13 @@ h2{
     font-weight: 300;
     margin: 20px 0;
 }
-
+h3{
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+}
 .cardmenulist{
     list-style: none;
 }
@@ -133,7 +139,9 @@ h2{
     font-weight: 700;
     line-height: normal;
 }
-
+.card{
+    position: relative;
+}
 .nouveau{
     position: absolute;
     color: var(--Green-Font, #008766);
