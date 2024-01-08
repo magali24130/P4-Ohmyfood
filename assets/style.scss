@@ -54,6 +54,8 @@ h3{
 }
 .cardmenulist{
     list-style: none;
+    display: flex;
+    flex-flow: column;
 }
 
 .button {
@@ -180,12 +182,12 @@ p{
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1019607843);
     border-radius: 15px;
     background: #FFFFFF;
+    margin-top: 12px;
 }
 .namerestaurant{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 30px;
 }
 
 .namerestaurant h1{
@@ -212,6 +214,7 @@ p{
     border-left: none;
     border-bottom-color: #99E2D0;
     border-bottom-width: 3px;
+    padding-top: 40px;
 }
 .footer{
     display: flex;
