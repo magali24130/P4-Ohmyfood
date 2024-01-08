@@ -156,11 +156,63 @@ h3{
     background: #99E2D0;
     padding: 7px 9px;
 }
+p{
+    font-family: 'Roboto', sans-serif;
+}
+.descriptiontitle{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+}
 
+.descriptioninfo{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
 
+}
+.cardmenulist li{
+    display: flex;
+    padding: 15px;
+    align-items: flex-end;
+    gap: 5px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1019607843);
+    border-radius: 15px;
+    background: #FFFFFF;
+}
+.namerestaurant{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
 
-
-
+.namerestaurant h1{
+    display: flex;
+    font-family: Shrikhand;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.descriptioncard{
+    position: relative;
+    margin-top: -50px;
+    padding: 31px 0px 40px 0px;
+    border-radius: 40px 40px 0px 0px;
+    background: #F6F6F6;
+}
+.menutitle{
+    font-size: 16px;
+    font-weight: 300;
+    border: solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-color: #99E2D0;
+    border-bottom-width: 3px;
+}
 .footer{
     display: flex;
     flex-flow: column;
