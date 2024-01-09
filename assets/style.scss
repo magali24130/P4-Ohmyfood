@@ -8,6 +8,12 @@
 .container{
     box-sizing: border-box;;
 }
+.fa-solid{
+    color: var(--Grey-Tint4, #7E7E7E);
+}
+.fa-solid:hover{
+    color: var(--Primary, #9356DC);
+}
 .logo{
     padding: 14px 0 13px 0;
     text-align: center;
@@ -50,7 +56,8 @@ h3{
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;    
+    line-height: normal;   
+    padding: 0 13px; 
 }
 .cardmenulist{
     list-style: none;
@@ -184,6 +191,7 @@ p{
     border-radius: 15px;
     background: #FFFFFF;
     margin-top: 12px;
+    justify-content: space-between;
 }
 .namerestaurant{
     display: flex;
@@ -215,13 +223,21 @@ p{
     border-right: none;
     border-left: none;
     border-bottom-color: #99E2D0;
-    border-bottom-width: 3px;
     padding: 40px 13px 0 13px;
 }
 .fa-heart:before {
     margin: 0 24px 0 0;
+    
 }
+.price{
+   
+    font-family: "roboto";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17px;
 
+
+}
 
 
 
