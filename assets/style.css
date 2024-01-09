@@ -61,6 +61,7 @@ h3 {
   list-style: none;
   display: flex;
   flex-flow: column;
+  padding: 0 13px;
 }
 
 .button {
@@ -205,6 +206,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 13px;
 }
 
 .namerestaurant h1 {
@@ -233,7 +235,11 @@ p {
   border-left: none;
   border-bottom-color: #99E2D0;
   border-bottom-width: 3px;
-  padding-top: 40px;
+  padding: 40px 13px 0 13px;
+}
+
+.fa-heart:before {
+  margin: 0 24px 0 0;
 }
 
 .footer {
