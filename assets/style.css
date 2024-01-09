@@ -166,6 +166,11 @@ h3 {
 
 .card {
   position: relative;
+  padding: 13px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background: #FFFFFF;
+  margin-top: 12px;
 }
 
 .nouveau {
@@ -293,4 +298,8 @@ p {
 
 .footer ul {
   list-style-type: none;
+}
+
+.footer-column .fa-solid {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
