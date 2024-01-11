@@ -281,13 +281,10 @@ p {
   padding: 40px 0px 0 0px;
 }
 
-.fa-heart:before {
-  margin: 0 24px 0 0;
-  position: absolute;
-  right: 5px;
-  bottom: 24px;
-  width: 22px;
-  height: 21px;
+.fa-regular .fa-heart:before:hover {
+  stroke-width: 0px;
+  fill-opacity: 1;
+  transition: fill-opacity 400ms ease;
 }
 
 .price {
