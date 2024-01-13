@@ -378,10 +378,13 @@ p {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  border-radius: 5px;
+  border-radius: 15px;
   box-shadow: 3px 3px 5px grey;
   overflow: hidden;
   cursor: pointer;
+  background-color: white;
+  margin-top: 12px;
+  margin: 13px;
 }
 .menu__infos {
   padding: 10px;
@@ -403,6 +406,7 @@ p {
 }
 .menu__price {
   padding: 0 10px 10px 10px;
+  
 }
 .menu__check {
   display: flex;

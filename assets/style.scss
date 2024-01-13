@@ -93,12 +93,7 @@ h3{
     padding: 54px 13px 13px;
     
 }
-.cardmenulist{
-    list-style: none;
-    display: flex;
-    flex-flow: column;
-    padding: 0 13px;
-}
+
 .cardcontent{
     display: flex;
     align-items: flex-start;
@@ -272,30 +267,8 @@ h3{
 p{
     font-family: 'Roboto', sans-serif;
 }
-.descriptiontitle{
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: 500;
-}
 
-.descriptioninfo{
-    font-family: Roboto;
-    font-size: 15px;
-    font-weight: 300;
 
-}
-.cardmenulist li{
-    display: flex;
-    padding: 15px;
-    align-items: flex-end;
-    gap: 5px;
-    box-sizing: border-box;
-    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1019607843);
-    border-radius: 15px;
-    background: #FFFFFF;
-    margin-top: 12px;
-    justify-content: space-between;
-}
 .namerestaurant{
     display: flex;
     align-items: center;
@@ -312,13 +285,7 @@ p{
     font-weight: 400;
     line-height: normal;
 }
-.descriptioncard{
-    position: relative;
-    margin-top: -50px;
-    padding: 31px 0px 40px 0px;
-    border-radius: 40px 40px 0px 0px;
-    background: #F6F6F6;
-}
+
 .menutitle{
     font-size: 16px;
     font-weight: 300;
@@ -342,45 +309,58 @@ p{
     height: 21px;
     
 }
-.price{
-   
-    font-family: "roboto";
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 17px;
 
-
-}
 .menu {
-    width: 320px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    border-radius: 5px;
-    box-shadow: 3px 3px 5px grey;
-    overflow: hidden;
-    cursor: pointer;
+        width: 320px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        border-radius: 15px;
+        box-shadow: 3px 3px 5px grey;
+        overflow: hidden; 
+        border-radius: 15px;
+        background-color: #FFFFFF;
+        margin-top: 12px;
+        justify-content: space-between;
+        margin: 13px;
+        cursor: pointer;
+        display: flex;
+        padding: 15px;
+        align-items: flex-end;
+        gap: 5px;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1019607843);
+     
     &__infos {
-      padding: 10px;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      flex: 1;
+        padding: 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        flex: 1;
       &--title {
         font-size: 18px;
         font-weight: bold;
         margin-bottom: 5px;
-      overflow: hidden;
-      text-overflow: ellipsis;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        color: #000;
+        white-space: nowrap;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
       }
       &--description {
-      overflow: hidden;
-      text-overflow: ellipsis;
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
     }
     &__price {
-      padding: 0 10px 10px 10px;
+        padding: 0 10px 10px 10px;
+        
     }
+    
     &__check {
       display: flex;
       align-items: center;
