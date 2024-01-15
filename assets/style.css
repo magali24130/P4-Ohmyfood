@@ -108,13 +108,6 @@ h3 {
   padding: 54px 13px 13px;
 }
 
-.cardmenulist {
-  list-style: none;
-  display: flex;
-  flex-flow: column;
-  padding: 0 13px;
-}
-
 .cardcontent {
   display: flex;
   align-items: flex-start;
@@ -293,31 +286,6 @@ p {
   font-family: "Roboto", sans-serif;
 }
 
-.descriptiontitle {
-  font-family: Roboto;
-  font-size: 18px;
-  font-weight: 500;
-}
-
-.descriptioninfo {
-  font-family: Roboto;
-  font-size: 15px;
-  font-weight: 300;
-}
-
-.cardmenulist li {
-  display: flex;
-  padding: 15px;
-  align-items: flex-end;
-  gap: 5px;
-  box-sizing: border-box;
-  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1019607843);
-  border-radius: 15px;
-  background: #FFFFFF;
-  margin-top: 12px;
-  justify-content: space-between;
-}
-
 .namerestaurant {
   display: flex;
   align-items: center;
@@ -333,14 +301,6 @@ p {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-}
-
-.descriptioncard {
-  position: relative;
-  margin-top: -50px;
-  padding: 31px 0px 40px 0px;
-  border-radius: 40px 40px 0px 0px;
-  background: #F6F6F6;
 }
 
 .menutitle {
@@ -366,13 +326,6 @@ p {
   height: 21px;
 }
 
-.price {
-  font-family: "roboto";
-  font-size: 15px;
-  font-weight: 700;
-  line-height: 17px;
-}
-
 .menu {
   width: 320px;
   display: flex;
@@ -381,10 +334,18 @@ p {
   border-radius: 15px;
   box-shadow: 3px 3px 5px grey;
   overflow: hidden;
-  cursor: pointer;
-  background-color: white;
+  border-radius: 15px;
+  background-color: #FFFFFF;
   margin-top: 12px;
+  justify-content: space-between;
   margin: 13px;
+  cursor: pointer;
+  display: flex;
+  padding: 15px;
+  align-items: flex-end;
+  gap: 5px;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1019607843);
 }
 .menu__infos {
   padding: 10px;
@@ -399,14 +360,34 @@ p {
   margin-bottom: 5px;
   overflow: hidden;
   text-overflow: ellipsis;
+  overflow: hidden;
+  color: #000;
+  white-space: nowrap;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 .menu__infos--description {
   overflow: hidden;
+  color: #000;
   text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
-.menu__price {
+.menu__price--tarif {
   padding: 0 10px 10px 10px;
-
+  color: #353535;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15.043px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 .menu__check {
   display: flex;
