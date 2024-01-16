@@ -268,12 +268,13 @@ h3 {
   position: relative;
   width: 20px;
   margin: 20px;
+  left: 20px;
   cursor: pointer;
 }
 .hearthsContainer--hearth {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  bottom: 1260%;
+  left: 1210%;
   transform: translate(-50%, -50%);
   font-size: 20px;
   transition: all 1s linear;
