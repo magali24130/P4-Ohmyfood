@@ -99,6 +99,9 @@ input::placeholder {
   box-sizing: border-box;
   border-radius: 15px;
   background: #FFFFFF;
+}
+
+.cardimg img {
   width: 100%;
 }
 
@@ -131,7 +134,7 @@ h3 {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  padding: 16px 25px 16px 13px;
+  padding: 5px 25px 0px 13px;
 }
 
 .button {
@@ -199,6 +202,10 @@ h3 {
   flex-wrap: wrap;
   height: 72px;
   padding: 0 33px;
+}
+
+.foncionning li:hover {
+  background-color: white;
 }
 
 .number {
@@ -274,10 +281,11 @@ h3 {
 .hearthsContainer--hearth {
   position: absolute;
   bottom: 1260%;
-  left: 1210%;
+  left: 1100%;
   transform: translate(-50%, -50%);
   font-size: 20px;
   transition: all 1s linear;
+  color: red;
 }
 .hearthsContainer--hearth.empty {
   opacity: 1;

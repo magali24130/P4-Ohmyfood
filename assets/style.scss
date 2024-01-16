@@ -86,6 +86,9 @@ input::placeholder {
     box-sizing: border-box;
     border-radius: 15px;
     background: #FFFFFF;
+   
+}
+.cardimg img{
     width: 100%;
 }
 h1{
@@ -116,7 +119,8 @@ h3{
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-        padding: 2px 25px 0px 13px;
+    padding: 5px 25px 0px 13px;
+}
 .button {
     width: 218px;
     color: white;
@@ -175,6 +179,9 @@ h3{
     flex-wrap: wrap;
     height: 72px;
     padding: 0 33px;
+}
+.foncionning li:hover{
+    background-color:white;
 }
 .number{
     color: white;
@@ -242,10 +249,12 @@ h3{
     &--hearth{
       position: absolute;
       bottom: 1260%;
-      left:1210%;
+      left:1100%;
       transform: translate(-50%, -50%);
       font-size: 20px;
       transition: all 1s linear;
+      color:red;
+             }
       &.empty {
         opacity: 1;
       }
@@ -273,14 +282,28 @@ h3{
       }
         }
       }
-  }
+  
   .fa-heart:before:hover{
     position: absolute;
     opacity: 0;
     background: linear-gradient(#9356DC, #FF79DA);
   }
   
-
+  .hearthsContainer{
+    position: relative;
+    width: 20px;
+    margin: 20px;
+    left: 20px;
+    cursor: pointer; }
+    &--hearth{
+      position: absolute;
+      bottom: 1260%;
+      left:1100%;
+      transform: translate(-50%, -50%);
+      font-size: 20px;
+      transition: all 1s linear;
+      color:red;
+       }
 p{
     font-family: 'Roboto', sans-serif;
 }
