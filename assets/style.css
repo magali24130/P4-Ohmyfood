@@ -468,6 +468,16 @@ p {
   align-items: center;
 }
 
+.footer a {
+  color: white;
+  font-size: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border: none;
+  text-decoration: none;
+}
+
 .footer ul {
   list-style-type: none;
 }
