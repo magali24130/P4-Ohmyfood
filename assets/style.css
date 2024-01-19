@@ -91,7 +91,13 @@ input::placeholder {
 }
 
 .descriptioncard {
-  background-color: #F6F6F6;
+  position: relative;
+  margin-top: -90px;
+  background-color: #f6f6f6;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
 }
 
 .cardimg {
@@ -328,6 +334,7 @@ p {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding: 10px 0 0 0;
 }
 
 .menutitle {
