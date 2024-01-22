@@ -140,7 +140,7 @@ h3 {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  padding: 5px 25px 0px 13px;
+  padding: 5px 25px 10px 13px;
 }
 
 .button {
@@ -279,14 +279,21 @@ h3 {
 
 .hearthsContainer {
   position: relative;
-  width: 20px;
-  margin: 20px;
+  width: 22px;
   cursor: pointer;
+  height: 21px;
+}
+.hearthsContainer.positionned {
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
 }
 .hearthsContainer--hearth {
   position: absolute;
-  bottom: 50%;
-  left: 1150%;
+  left: 50%;
+  top: 50%;
+  width: 22px;
+  height: 21px;
   transform: translate(-50%, -50%);
   font-size: 20px;
   transition: all 1s linear;
@@ -323,8 +330,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 13px;
-  position: absolute;
+  padding: 10px 13px;
 }
 
 .namerestaurant h1 {
@@ -334,7 +340,6 @@ p {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding: 10px 0 0 0;
 }
 
 .menutitle {
@@ -349,15 +354,6 @@ p {
   border-left: none;
   border-bottom-color: #99E2D0;
   padding: 40px 0px 0 0px;
-}
-
-.fa-heart {
-  margin: 0 24px 0 0;
-  position: absolute;
-  right: 5px;
-  bottom: 24px;
-  width: 22px;
-  height: 21px;
 }
 
 .menu {
@@ -491,4 +487,9 @@ p {
 
 .footer-column .fa-solid {
   color: white;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+/* Small devices (phones, less than 768px) */
+/* ... *//*# sourceMappingURL=style.css.map */
