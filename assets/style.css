@@ -90,6 +90,11 @@ input::placeholder {
   background: #F6F6F6;
 }
 
+.commander {
+  padding: 40px 30px;
+  background-color: #F6F6F6;
+}
+
 .descriptioncard {
   position: relative;
   margin-top: -90px;
@@ -490,6 +495,30 @@ p {
 }
 
 /****** Media queries ***********/
-/* Medium devices (tablets, less/equal than 1024px) */
-/* Small devices (phones, less than 768px) */
-/* ... *//*# sourceMappingURL=style.css.map */
+@media screen and (min-width: 1200px) {
+  .choix {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .descriptioncard {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .commander {
+    width: 46%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer {
+    flex-flow: nowrap;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .footer-column {
+    display: flex;
+    gap: 15px;
+    justify-content: right;
+  }
+}/*# sourceMappingURL=style.css.map */
