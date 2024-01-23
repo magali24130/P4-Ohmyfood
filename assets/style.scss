@@ -320,6 +320,53 @@ p{
     font-weight: 400;
     line-height: normal;
 }
+.anim1{
+        animation-duration: 5s;
+        animation-name: glissement;
+      }
+      @keyframes glissement {
+        from {
+          margin-left: 100%;
+          width: 70%;
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 70%;
+        }
+      }
+.anim2{
+    animation-duration: 10s;
+    animation-name: glissement;
+  }
+  @keyframes glissement {
+    from {
+      margin-left: 100%;
+      width: 70%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 70%;
+    }
+  }
+
+  .anim3{
+    animation-duration: 15s;
+    animation-name: glissement;
+  }
+  @keyframes glissement {
+    from {
+      margin-left: 100%;
+      width: 70%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 70%;
+    }
+  }
+
 
 .menutitle{
     font-size: 16px;
@@ -480,6 +527,22 @@ line-height: normal;
     justify-content: center;
     gap: 20px;
 }
+.listrestaurant{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.card{
+    width: 40%;
+
+}
+.restaurants{
+    max-width: 1440px;
+    padding-bottom: 50px;
+}
+
 .descriptioncard{
     width: 50%;
     margin-left: auto;
