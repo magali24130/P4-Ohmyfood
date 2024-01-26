@@ -209,7 +209,7 @@ h3 {
 }
 
 .foncionning {
-  margin: 0px 20px 30px 20px;
+  padding: 0px 20px 30px 60px;
 }
 
 .foncionning:hover {
@@ -589,8 +589,21 @@ p {
     flex-wrap: wrap;
     justify-content: space-around;
   }
+  .foncionning li {
+    width: 350px;
+  }
   .card {
     width: 40%;
+  }
+  .restaurants h3 {
+    padding-left: 70px;
+  }
+  .foncionning ol {
+    gap: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
   }
   .restaurants {
     max-width: 1440px;
