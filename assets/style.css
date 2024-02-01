@@ -566,6 +566,7 @@ p {
   align-items: center;
   border: none;
   text-decoration: none;
+  font-family: "Roboto", sans-serif;
 }
 
 .footer ul {
